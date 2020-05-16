@@ -1,0 +1,116 @@
+<html>
+  <head>
+  <meta name="viewport" content="width=device-width">
+  <title>FaceBook Login</title>
+  <style>
+    *{
+      font-family: arial;
+    }
+    nav{
+      display:flex;
+      background: #46629E;
+      padding-top:10
+    }
+    h1{
+      font-size:30px;
+      color:#ffffff;
+      margin-left:80;
+      
+    }
+    .btn1{
+      margin-left:20px;
+      height :30px;
+      padding:3px;
+      margin-top:29px;
+      border-radius:3px;
+      border: none;
+      background: #4BB72A;
+      color: #ffffff;
+      font-weight:800;
+      padding-left:10px;
+      padding-right:10px;
+    }
+    a{
+      link-style:none;
+      text-decoration:none;
+    }
+    a:hover{
+      link-style:none;
+      text-decoration:underline;
+    }
+    .container{
+      background: #E9EBEE;
+      height:70%;
+      display: grid;
+      grid-template-columns:25% 50% 25%
+    }
+    .login{
+      background: #ffffff; 
+      height:70%;
+      margin-top:60px;
+      border:none;
+      border-radius:3px;
+    }
+    .login-text{
+      text-align:center;
+      margin-top:30px;
+      color:#252525;
+    }
+    input{
+      border-radius:3px;
+      border: 1.5px #E9EBEE solid;
+      width:80%;
+      padding-left:10px;
+      font-size:15.3px;
+    }
+    .input-field{
+      display:grid;
+      grid-template-rows:30% 20% 30%;
+      margin-left: 18%
+    }
+    .btn2{
+      width:80%;
+      padding:7px;
+      background: #4267B2;
+      border:0px;
+      border-radius:3px;
+      color:#ffffff;
+      font-weight:600;
+    }
+    .links p{
+      font-size:12.5px;
+      margin-top:-2px;
+      text-align:center;
+    }
+    ul li{
+      list-style:none;
+      float:left;
+      font-size:12.5px;
+      text-align:center;
+      margin-left:30px;
+    }
+    .first-child{
+     margin-left:23%;
+    }
+  </style>
+  </head>
+<body>
+  <nav><h1>facebook</h1><button class="btn1">Create New Account</button></nav>
+  <div class="container">
+    <div></div>
+    <div class="login">
+      <p class='login-text'>Log in to Facebook</p>
+      <div class="input-field">
+      <input type="text" placeholder="Email address or phone number"/><br/>
+      <input type="text" placeholder="Password"/><br/>
+      <button class='btn2'>Log in</button>
+      </div>
+      <div class="links"><br/>
+        <ul><li class="first-child"><a href="#">Forgotten account?</a></li><li class="second-child"><a href="#">Sign up for Facebook</a></li></ul><br/>
+        <p><a href="#">Not now</a></p>
+      </div>
+    </div>
+    <div></div>
+  </div>
+</body>
+</html>
